@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'Design-demo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile('org.springframework:spring-context:5.2.6.RELEASE')
+    compile 'org.springframework:spring-beans:5.2.6.RELEASE'
+    compile 'org.springframework:spring-aop:5.2.6.RELEASE'
+    compile 'org.springframework.boot:spring-boot-autoconfigure:2.3.0.RELEASE'
+    compile 'org.springframework.boot:spring-boot:2.3.0.RELEASE'
+    compile 'org.springframework:spring-core:5.2.6.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:2.3.0.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter:2.3.0.RELEASE'
+    compile 'org.springframework:spring-webmvc:5.2.6.RELEASE'
+    compile 'cglib:cglib:3.2.12'
+    compile 'org.projectlombok:lombok:1.16.10'
+    compile 'org.apache.commons:commons-lang3:3.10'
+    compile 'org.springframework.boot:spring-boot-starter-aop:2.3.1.RELEASE'
+    compile 'com.alibaba:fastjson:1.2.72'
+    compile 'com.google.guava:guava:29.0-jre'
+    compile 'com.google.inject:guice:4.2.3'
+}
+
+
+
+
